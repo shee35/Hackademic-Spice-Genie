@@ -143,11 +143,11 @@ h2{
   padding: 2% 15%;
   text-align: center;
   color: #ffffff;
-  background-color: #000000;
+  background-color: #7e7474;
 }
 i:hover{
   transform: scale(1.5);
-  color: yellow;
+  color: black;
 }
 .social-icon{
   margin: 20px 15px;

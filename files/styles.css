@@ -22,6 +22,11 @@ h2{
     margin: auto;
   }
 
+  #imgg{
+    width: 100%;
+    max-height:400px ;
+    border-radius: .5rem;
+  }
   /* Hide the images by default */
   .mySlides {
     display: none;
@@ -133,14 +138,19 @@ h2{
   button:hover{
     background-color: #adce74;
   }
+
   #footer{
   padding: 2% 15%;
   text-align: center;
+  color: #ffffff;
   background-color: #000000;
 }
+i:hover{
+  transform: scale(1.5);
+  color: yellow;
+}
 .social-icon{
-  margin: 20px 15px
-  color: #ffffff;
+  margin: 20px 15px;
   padding-left: 5px;
   padding-right: 5px;
 }

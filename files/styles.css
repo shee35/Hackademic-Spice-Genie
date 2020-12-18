@@ -10,6 +10,9 @@ h1{
     padding-top: 4px;
     font-family: 'Texturina', serif;
 }
+h2{
+  text-align: center;
+}
 
 /********************************* for slide show ****************************************/
 
@@ -112,6 +115,7 @@ h1{
     border-radius:1.25em;
     text-align:center;
     padding: 5px;
+    margin-bottom: 40px;
   }
   .side1, .side2{
       flex: 50%;
@@ -119,10 +123,24 @@ h1{
       padding: 10px;
   }
   button{
-      width: 80px;
+      width: 100px;
       height: 50px;
       text-align: center;
-      background-color: green;
-      border-radius: .5rem;
+      background-color: #61b15a;
+      border-radius: 50%;
       color: white;
   }
+  button:hover{
+    background-color: #adce74;
+  }
+  #footer{
+  padding: 2% 15%;
+  text-align: center;
+  background-color: #000000;
+}
+.social-icon{
+  margin: 20px 15px
+  color: #ffffff;
+  padding-left: 5px;
+  padding-right: 5px;
+}

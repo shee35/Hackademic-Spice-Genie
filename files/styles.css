@@ -25,16 +25,14 @@ h2 {
     margin: auto;
 }
 
-.carousel-content {
-    position: absolute;
-    bottom: 50%;
-    left: 30%;
-    text-shadow: 4px, 4px;
-    color: white;
-    z-index: 20;
-    font-family: 'Merriweather';
-    font-size: 60px;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+  color: white;
+  font-family: 'Merriweather';
+  font-size: 60px;
+  text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px darkblue;
 }
 
 .mail {
@@ -159,7 +157,14 @@ h2 {
         opacity: 1
     }
 }
-
+@media (max-width:600px){
+  .carousel-caption{
+    font-size: 30px;
+  }
+  #imgg{
+    max-height: 300px;
+  }
+}
 
 /********************************** ends ****************************************/
 
@@ -238,4 +243,4 @@ input{
     border-radius: .5rem;
     padding: 7px;
     width: 30%;
-} 
+}

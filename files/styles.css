@@ -251,21 +251,29 @@ input{
     margin: 10px;
   }
   .different{
-    background-color: aliceblue;
+    text-align: center;
+    background-color: white;
     flex: 25%;
-    margin: 8px;
+    margin: 10px;
     padding: 5px;
-    border: 3px solid rgb(175, 210, 240);
+    /* border: 3px solid rgb(175, 210, 240); */
     border-radius: .8rem;
   }
   .different >img{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border: 2px solid black;
     border-radius: .5rem;
   }
+  .different>h5{
+    font-size: 25px;
+  }
   .different>i{
-    margin: 10px;
+    margin: 5px;
+  }
+  .social-iconn{
+    /* margin: 2px; */
+  padding: 3px;
   }
   #S_icons{
 color: black;

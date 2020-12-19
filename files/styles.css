@@ -252,3 +252,30 @@ input{
     padding: 7px;
     width: 30%;
 }
+
+/************************* for about page ******************************/
+#letssee{
+    display: flex;
+    margin: 10px;
+  }
+  .different{
+    background-color: aliceblue;
+    flex: 25%;
+    margin: 8px;
+    padding: 5px;
+    border: 3px solid rgb(175, 210, 240);
+    border-radius: .8rem;
+  }
+  .different >img{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: .5rem;
+  }
+  .different>i{
+    margin: 10px;
+  }
+  #S_icons{
+color: black;
+  }
+  /***************************** ends about page***************************/

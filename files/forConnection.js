@@ -64,7 +64,7 @@ document.getElementById('searching').addEventListener("click", function() {
 async function sendAPIRequest() {
     var APP_ID = "196ee461";
     var API_KEY = "28a90ed3d4a21ef85469ade6d3894ed1";
-    let fetchTerm = `https://api.edamam.com/search?app_id=${APP_ID}&app_key=${API_KEY}&to=20&q=`+ userinput.value;
+    let fetchTerm = `https://api.edamam.com/search?app_id=${APP_ID}&app_key=${API_KEY}&to=36&q=`+ userinput.value;
     let response = await fetch(fetchTerm);
     console.log(response);
     let data = await response.json();
@@ -75,27 +75,18 @@ function generateHTML(results) {
   let generatedHTML = "";
   results.map((result) =>{
     generatedHTML += `
-    <div class="album">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card mb-4 box-shadow">
-          <img class="card-img-top" src="${result.recipe.image}" alt="Card image cap">
-            <div class="card-body">
-            <h5 class="card-title">${result.recipe.label}</h5>
-            <p class="card-text">"${result.recipe.ingredients[0].text}"</p>
-            <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                <a href="${result.recipe.shareAs}" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-      </div>
-      </div>
+    <div class="item">
+       <img src="${result.recipe.image}" alt="img">
+       <div class="flex-container">
+         <h1 class="recipe-name">${result.recipe.label}</h1>
+         <a class="view-btn" target="_blank" href="${
+           result.recipe.url
+         }">View Recipe</a>
+       </div>
+       <p class="item-data">Calories: ${result.recipe.calories.toFixed(2)}</p>
+       <p class="item-data">Health labels: ${result.recipe.healthLabels}</p>
+     </div>
       `;
   });
-    document.getElementById('container').innerHTML = generatedHTML;
+    document.getElementById('output').innerHTML = generatedHTML;
 }

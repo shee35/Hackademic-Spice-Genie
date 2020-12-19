@@ -63,9 +63,6 @@ We knew the basics of frontend developement were the 3 languages HTML, CSS, JAVA
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 ## Tech stack
 
-* HTML
-* CSS
-* JAVASCRIPT
 
 <table>
   <tr>
@@ -109,7 +106,6 @@ This site is a collaboration project of :mortar_board::mortar_board: JYOTIKA, VI
 ## Thank you for visiting our Repository
 Show some :heart: by starring this repository :star:
 
-![ThankYou](thankyou.gif)
 
 
 

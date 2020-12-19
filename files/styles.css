@@ -164,12 +164,12 @@ h2 {
 /********************************** ends ****************************************/
 
 .container1 {
-    display: flex;
     background-color: rgba(255, 255, 255, .8);
     border-radius: 1.25em;
     text-align: center;
     padding: 5px;
-    margin-bottom: 40px;
+    margin: 60px auto;
+    width: 70%;
 }
 
 .intro {
@@ -225,3 +225,17 @@ i:hover {
     padding-left: 5px;
     padding-right: 5px;
 }
+
+a{
+    color: #ffffff;
+}
+
+a:hover{
+    text-decoration: none;
+}
+input{
+    margin: 20px;
+    border-radius: .5rem;
+    padding: 7px;
+    width: 30%;
+} 

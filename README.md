@@ -21,7 +21,7 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ## About our 'Spice Genie'   <img src="image.png" width="50" height="50"/>
 Here, we bring you a platform to solve all your cooking hustle. Adamant of making a particular dish? Search it here. Wanna avoid wastage of food? Give us the leftover ingredients, you can make really tasty dishes out of those.:shaved_ice:
-<img src="hunger1.gif" /> <img src="hunger2.png"/>
+<img src="hunger4.gif" /> 
 :poultry_leg: Nothing tastes better than the food you want to eat right now. Therefore, this website is mainly intended towards fulfiling your quest to get your desired food :custard::wine_glass: to your table. People usually face problems while they work in the kitchen so as to how they can utilise the residual food while cooking :tropical_drink:. This website helps you to get the recipie :hamburger: of any delicious dish that is possible to be made by using the ingredients that you want. Moreover, it helps to explore various other dishes if you are interested to learn cooking. Best site for food lovers :heart::heart: ; Eat healthy :strawberry::grapes:and be happy to spread happiness around :)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -66,8 +66,16 @@ We knew the basics of frontend developement were the 3 languages HTML, CSS, JAVA
 * CSS
 * JAVASCRIPT
 
-
+<table>
+  <tr>
+     <td align="center"><img src="html.gif" width="250px;" alt=""/><br /><sub><b>HTML</b></sub></a><br /></td>
+     <td align="center"><img src="css.gif" width="250px;" alt=""/><br /><sub><b>CSS</b></sub></a><br /></td>
+     <td align="center"><img src="js.gif" width="250px;" alt=""/><br /><sub><b>JavaScript</b></sub></a><br /></td>
+ 
+ </tr>
+</table>
 ----------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Team :confetti_ball:
 
 <table>

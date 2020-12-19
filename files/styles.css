@@ -15,7 +15,9 @@ h1 {
 h2 {
     text-align: center;
 }
-
+.nav-item{
+  padding: 0 18px;
+}
 
 /********************************* for slide show ****************************************/
 
@@ -214,12 +216,18 @@ button:hover {
 }
 
 #footer {
-    padding: 2% 15%;
+    padding: 1% 15%;
     text-align: center;
     color: #ffffff;
     background-color: #7e7474;
 }
-
+.we{
+  text-align: center;
+  font-size: 20px;
+}
+.txt-rotate{
+  color: yellow;
+}
 i:hover {
     transform: scale(1.5);
     color: black;

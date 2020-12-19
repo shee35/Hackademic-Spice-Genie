@@ -175,7 +175,8 @@ button {
   height: 65px;
   text-align: center;
   background-color: #61b15a;
-  border-radius: 50%;
+  border-radius: .5rem;
+  outline: none;
   color: white;
 }
 

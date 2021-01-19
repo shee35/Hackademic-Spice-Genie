@@ -71,9 +71,13 @@ async function sendAPIRequest() {
     generateHTML(data.hits);
     console.log(data);
 }
+var title1;
+var arr;
 function generateHTML(results) {
   let generatedHTML = "";
   results.map((result) =>{
+    arr = result.recipe.ingredientLines.slice();
+    title1 = result.recipe.label;
     generatedHTML += `
     <div class="item">
        <img src="${result.recipe.image}" alt="img">
@@ -85,8 +89,15 @@ function generateHTML(results) {
        </div>
        <p class="item-data">Calories: ${result.recipe.calories.toFixed(2)}</p>
        <p class="item-data">Health labels: ${result.recipe.healthLabels}</p>
+       <a class="view-btn" target="_blank" onClick = "myFunction('${result.recipe.label}', '${result.recipe.ingredientLines}')">view missing ingredients</a>
      </div>
       `;
   });
     document.getElementById('output').innerHTML = generatedHTML;
+}
+
+function myFunction(value, arr){
+  sessionStorage.setItem("RName", value);
+  sessionStorage.setItem("arr", JSON.stringify(arr));
+  location.href = "ingredientDetails.html";
 }

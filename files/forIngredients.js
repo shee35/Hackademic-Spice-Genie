@@ -1,21 +1,24 @@
 var title = document.getElementById("title");
-var output = document.getElementById("output");
+var output = document.getElementById("disply");
 var RName = sessionStorage.getItem("RName");
 jsarray = JSON.parse(sessionStorage.getItem("arr"));
 console.log(RName);
-output.innerHTML = jsarray;
+
 title.innerHTML= RName;
 
+let generatedHTML = "";
 var comb = '';
 for(var i = 0; i<jsarray.length ; i++){
      comb += jsarray[i]; 
     if(jsarray[i]===',')
     {
+        generatedHTML += `<p style="text-align:left;"><input type="checkbox" />${comb}</p>`; 
         console.log(comb);
         comb = '';
     }
 }
 
+output.innerHTML = generatedHTML;
 /*
 var queryString = decodeURIComponent(window.location.search);
 queryString = queryString.substring(1);

@@ -3,7 +3,7 @@ var output = document.getElementById("output");
 var RName = sessionStorage.getItem("RName");
 jsarray = JSON.parse(sessionStorage.getItem("arr"));
 console.log(RName);
-
+output.innerHTML = jsarray;
 title.innerHTML= RName;
 
 var comb = '';

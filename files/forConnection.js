@@ -89,15 +89,16 @@ function generateHTML(results) {
        </div>
        <p class="item-data">Calories: ${result.recipe.calories.toFixed(2)}</p>
        <p class="item-data">Health labels: ${result.recipe.healthLabels}</p>
-       <a class="view-btn" target="_blank" onClick = "myFunction('${result.recipe.label}', '${result.recipe.ingredientLines}')">view missing ingredients</a>
+       <a class="view-btn" target="_blank" onClick = "myFunction('${result.recipe.label}','${result.recipe.image}', '${result.recipe.ingredientLines}')">view missing ingredients</a>
      </div>
       `;
   });
     document.getElementById('output').innerHTML = generatedHTML;
 }
 
-function myFunction(value, arr){
+function myFunction(value,img, arr){
   sessionStorage.setItem("RName", value);
+  sessionStorage.setItem("image", img);
   sessionStorage.setItem("arr", JSON.stringify(arr));
   location.href = "ingredientDetails.html";
 }

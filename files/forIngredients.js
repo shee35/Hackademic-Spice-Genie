@@ -1,9 +1,13 @@
 var title = document.getElementById("title");
 var output = document.getElementById("disply");
+var pic = document.getElementById("pic");
 var RName = sessionStorage.getItem("RName");
+var image = sessionStorage.getItem("image");
+
+
+pic.setAttribute("src", image);
 jsarray = JSON.parse(sessionStorage.getItem("arr"));
 console.log(RName);
-
 title.innerHTML= RName;
 
 let generatedHTML = "";

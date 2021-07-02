@@ -5,8 +5,7 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 ## Spice-Genie Demo :hamburger:
 
-### :rocket::rocket: [Click here to visit Spice Genie](https://xxx32.github.io/Hackademic-Spice-Genie/)
-
+### :rocket::rocket: [Click here to visit Spice Genie](https://shee35.github.io/Hackademic-Spice-Genie/)
 
 <table>
   <tr>

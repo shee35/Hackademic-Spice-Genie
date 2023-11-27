@@ -91,7 +91,7 @@ We knew the basics of frontend developement were the 3 languages HTML, CSS, JAVA
 ## Contact Us
 
 
-This site is a collaboration project of :mortar_board::mortar_board: JYOTIKA, VIDUSHI, MEDHA and AARUSHI, the students of IIIT Allahabad. We would be happy to help you in any way. Please feel free to reach out to us on any of the social media platform or mail for any kind of query. Details of all are given below:-
+This site is a collaboration project of :mortar_board::mortar_board: JYOTIKA, VIDUSHI, MEDHA and AARUSHI, the students of IIIT Allahabad. We would be happy to help you in any way. Please feel free to reach out to us on any of the social media platform or mail for any kind of query. Details of all are given below:
 
 
 * [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:IIT2019021@iiita.ac.in)](mailto:IIT2019021@iiita.ac.in)<span> Medha</span>
